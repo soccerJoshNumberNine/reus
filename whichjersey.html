@@ -2,6 +2,20 @@
 <html>
 <head>
   <title>Which Jersey?</title>
+  <style>
+    body {
+      background-image: url("http://wallpapercave.com/wp/hv7wZp8.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    
+    button {
+      background-color: #fff;
+      border: none;
+      padding: 5px
+    }
+  </style>
 </head>
 <body>
   <button onclick="find()">Find which jersey to wear</button>
@@ -12,7 +26,6 @@
     var date = null;
     var answer = null;
     var day = null;
-
     function find () {
       // Gets new date object
       date = new Date();
@@ -20,6 +33,7 @@
       day = date.getDay();
       // Get the jersey for the day from the array with days and their jerseys
       answer = jersey[day];
+      document.getElementById("result").style.color = "#fff";
       document.getElementById("result").innerHTML = answer;
     }
   </script>
