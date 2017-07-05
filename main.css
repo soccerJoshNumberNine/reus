@@ -1,0 +1,12 @@
+body {
+      background-image: url("http://wallpapercave.com/wp/hv7wZp8.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    
+    button {
+      background-color: #fff;
+      border: none;
+      padding: 5px
+      }
