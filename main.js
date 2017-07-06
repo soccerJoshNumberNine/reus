@@ -12,3 +12,4 @@
       answer = jersey[day];
       document.getElementById("result").style.color = "#fff";
       document.getElementById("result").innerHTML = answer;
+    }
